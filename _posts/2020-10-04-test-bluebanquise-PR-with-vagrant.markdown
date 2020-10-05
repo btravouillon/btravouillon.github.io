@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test GitHub PR with bluebanquise-vagrant"
+title:  "Test BlueBanquise PR with Vagrant"
 date:   2020-10-04 18:38:16 -0400
 categories: bluebanquise vagrant
 ---
