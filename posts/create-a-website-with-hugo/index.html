@@ -2,7 +2,6 @@
 <html itemscope itemtype="http://schema.org/WebPage" lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.78.2" />
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,7 +10,9 @@
 
 
 
-    <meta name="description" content="Bruno&#39;s tech minutes">
+    <meta name="description" content="&#43; Hugo is a static website generator written in Go. This is a framework that helps to quickly and efficiently build a website from templates, themes and markdown content.
+In this blog post, I will demonstrate how to build a static website with Hugo and publish it to GitHub Pages. This post does not cover the initialization of the GitHub Pages which is documented here.
+Initial Setup of the Website There are several ways to install Hugo, which depend on your operating system.">
 
 
 
@@ -23,7 +24,7 @@
     
 
 
-    <title>Bruno&#39;s tech minutes</title>
+    <title>Create a Website With Hugo | Bruno&#39;s tech minutes</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -31,15 +32,20 @@
 
     
 
-    <meta property="og:title" content="Bruno&#39;s tech minutes" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://btravouillon.github.io/" />
-<meta property="og:updated_time" content="2020-11-21T18:40:25-05:00" />
+    <meta property="og:title" content="Create a Website With Hugo" />
+<meta property="og:description" content="&#43; Hugo is a static website generator written in Go. This is a framework that helps to quickly and efficiently build a website from templates, themes and markdown content.
+In this blog post, I will demonstrate how to build a static website with Hugo and publish it to GitHub Pages. This post does not cover the initialization of the GitHub Pages which is documented here.
+Initial Setup of the Website There are several ways to install Hugo, which depend on your operating system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://btravouillon.github.io/posts/create-a-website-with-hugo/" />
+<meta property="article:published_time" content="2020-11-21T17:34:24-05:00" />
+<meta property="article:modified_time" content="2020-11-21T18:40:25-05:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Bruno&#39;s tech minutes"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Create a Website With Hugo"/>
+<meta name="twitter:description" content="&#43; Hugo is a static website generator written in Go. This is a framework that helps to quickly and efficiently build a website from templates, themes and markdown content.
+In this blog post, I will demonstrate how to build a static website with Hugo and publish it to GitHub Pages. This post does not cover the initialization of the GitHub Pages which is documented here.
+Initial Setup of the Website There are several ways to install Hugo, which depend on your operating system."/>
 
 
     <link rel="preload" as="font" href="/fonts/Metropolis.woff2" type="font/woff2" crossorigin="anonymous">
@@ -68,14 +74,46 @@
 <!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
 
     
+
+
+
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
-    "@type": "WebSite",
-    
-    "name": "Bruno\u0027s tech minutes",
-    "url": "https:\/\/btravouillon.github.io\/",
-    "thumbnailUrl": "https:\/\/btravouillon.github.io\/brand.svg"
+    "@type": "BlogPosting",
+    "articleSection": "posts",
+    "name": "Create a Website With Hugo",
+    "headline": "Create a Website With Hugo",
+    "alternativeHeadline": "",
+    "description": "\u002b Hugo is a static website generator written in Go. This is a framework that helps to quickly and efficiently build a website from templates, themes and markdown content.\nIn this blog post, I will demonstrate how to build a static website with Hugo and publish it to GitHub Pages. This post does not cover the initialization of the GitHub Pages which is documented here.\nInitial Setup of the Website There are several ways to install Hugo, which depend on your operating system.",
+    "inLanguage": "en",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/btravouillon.github.io\/posts\/create-a-website-with-hugo\/"
+    },
+    "author" : [
+    ],
+    "copyrightHolder" : "Bruno\u0027s tech minutes",
+    "copyrightYear" : "2020",
+    "dateCreated": "2020-11-21T17:34:24.00Z",
+    "datePublished": "2020-11-21T17:34:24.00Z",
+    "dateModified": "2020-11-21T18:40:25.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Bruno's tech minutes",
+        "url": "https://btravouillon.github.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/btravouillon.github.io\/brand.svg",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "url" : "https:\/\/btravouillon.github.io\/posts\/create-a-website-with-hugo\/",
+    "wordCount" : "860",
+    "genre" : [ ]
 }
 </script>
 
@@ -115,67 +153,171 @@
 
         <main class="gblog-page container">
             
-    
-    
-        
-    
-
-    
-    
     <article class="gblog-post">
         <header class="gblog-post__header">
-            <h1><a href="/posts/create-a-website-with-hugo/">Create a Website With Hugo</a></h1>
+            
+            
+
+            <h1>Create a Website With Hugo</h1>
+            
+            <div class="gblog-post__meta">
+                <span class="no-wrap">
+                    <svg class="icon date"><use xlink:href="#date"></use></svg>
+                    <span class="gblog-post__tag">
+                        <time datetime="2020-11-21T18:40:25-05:00">
+                            
+                            Nov 21, 2020
+                        </time>
+                    </span>
+                </span>
+
+                <span class="no-wrap">
+                    <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                    <span class="gblog-post__tag">5 min read</span>
+                </span>
+            </div>
+            
         </header>
 
         <section class="gblog-markdown">
-            + Hugo is a static website generator written in Go. This is a framework that helps to quickly and efficiently build a website from templates, themes and markdown content.
-In this blog post, I will demonstrate how to build a static website with Hugo and publish it to GitHub Pages. This post does not cover the initialization of the GitHub Pages which is documented here.
-Initial Setup of the Website There are several ways to install Hugo, which depend on your operating system.
+            
+
+
+
+    
+
+
+<p><img src="/img/hugo-logo.png" alt="Hugo Logo"> + <img src="/img/gh-pages.png" alt="GitHub Pages Logo"></p>
+<p><a href="https://gohugo.io/">Hugo</a> is a static website generator written in Go. This is a framework that
+helps to quickly and efficiently build a website from templates, themes and
+markdown content.</p>
+<p>In this blog post, I will demonstrate how to build a static website with
+<a href="https://gohugo.io/">Hugo</a> and publish it to <a href="https://pages.github.com">GitHub Pages</a>. This post does not cover the
+initialization of the GitHub Pages which is <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages">documented here</a>.</p>
+<div class="gblog-post__anchorwrap"><h2 id="initial-setup-of-the-website">Initial Setup of the Website<a data-clipboard-text="https://btravouillon.github.io/posts/create-a-website-with-hugo/#initial-setup-of-the-website" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Initial Setup of the Website" href="#initial-setup-of-the-website"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>There are several ways to install Hugo, which depend on your operating system.
+This is well explained in the <a href="https://gohugo.io/getting-started/installing/">Hugo documentation</a>.</p>
+<p>For Linux users, the fastest way to get started with Hugo is to download and
+install the portable binary somewhere in your PATH:</p>
+<pre><code class="language-console" data-lang="console">$ curl -L https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_0.78.2_Linux-64bit.tar.gz \
+    | tar -xz -C ~/.local/bin/ hugo
+</code></pre><p>Once the hugo binary is installed, you can create the new site. If you want to
+publish your website with GitHub Pages, create the project site
+<code>username.github.io</code> (where &ldquo;username&rdquo; is your actual GitHub user name or
+organization):</p>
+<pre><code class="language-console" data-lang="console">$ hugo new site btravouillon.github.io
+Congratulations! Your new Hugo site is created in /home/bruno/Documents/git/btravouillon.github.io.
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the &quot;hugo new theme &lt;THEMENAME&gt;&quot; command.
+2. Perhaps you want to add some content. You can add single files
+   with &quot;hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&quot;.
+3. Start the built-in live server via &quot;hugo server&quot;.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+</code></pre><p>Initialize a git repository in the newly created site directory:</p>
+<pre><code class="language-console" data-lang="console">$ git init btravouillon.github.io/
+Initialized empty Git repository in /home/bruno/Documents/git/btravouillon.github.io/.git/
+</code></pre><p>The next step to setup the Hugo website is to add a theme. It took me some time
+to find a theme that would fit my needs, but I finally came across the
+<a href="https://themes.gohugo.io/hugo-geekblog/">geekblog theme</a> which is very nice to render IT related blog posts with a
+lot of code/console snippets.</p>
+<pre><code class="language-console" data-lang="console">$ cd btravouillon.github.io/
+$ mkdir themes/geekblog
+$ curl -L https://github.com/thegeeklab/hugo-geekblog/releases/download/v0.5.3/hugo-geekblog.tar.gz \
+    | tar -xz -C themes/geekblog
+</code></pre><p>Once the theme is installed, you must edit the configuration file to enable it.
+The snippet below is a minimal <code>config.toml</code> to get a proper rendering of the
+website:</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;https://btravouillon.github.io/&#34;</span>
+<span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en-us&#34;</span>
+<span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Bruno&#39;s tech minutes&#34;</span>
+<span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;geekblog&#34;</span>
+
+<span class="c"># Required to get well formatted code blocks</span>
+<span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="nx">disablePathToLower</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="nx">enableGitInfo</span> <span class="p">=</span> <span class="kc">true</span>
+</code></pre></div><p>There is an exhaustive configuration file available <a href="https://hugo-geekblog.geekdocs.de/posts/getting-started/#configuration">here</a> for this theme.</p>
+<p>To ensure the configuration is correct, start the built-in live server on your
+system. Hugo will process the configuration, templates and theme to build the
+static website:</p>
+<pre><code class="language-console" data-lang="console">$ hugo server -D
+Start building sites …
+[...]
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre><p>Open your browser and navigate to the website to check the build is correct.
+Once you are done, you can stop the server with Ctrl+C.</p>
+<div class="gblog-post__anchorwrap"><h2 id="add-content-to-the-website">Add content to the Website<a data-clipboard-text="https://btravouillon.github.io/posts/create-a-website-with-hugo/#add-content-to-the-website" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Add content to the Website" href="#add-content-to-the-website"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>In the previous step, Hugo built a static website with no content. Now is the
+right time to add content to our website. For this, create the first post:</p>
+<pre><code class="language-console" data-lang="console">$ hugo new posts/create-a-website-with-hugo.md
+</code></pre><p>Edit the newly created file with the content you want to share. Once the
+content is ready to be published, add the files to the git index and commit the
+changes:</p>
+<pre><code class="language-console" data-lang="console">$ git add config.toml archetypes content
+$ git commit -m &quot;Initial commit&quot;
+</code></pre><blockquote class="gblog-hint info">
+  <strong>NOTE</strong><br>
+I don&rsquo;t add the <code>themes</code> directory to the git index on purpose, I don&rsquo;t want to track the theme in this git project.
+</blockquote>
+
+<p>Add the GitHub repository as remote.</p>
+<pre><code class="language-console" data-lang="console">$ git remote add origin https://btravouillon@github.com/btravouillon/btravouillon.github.io.git
+$ git branch -m master main
+$ git push -u origin main
+</code></pre><p>The source files of the website are now managed with git in the <strong>main</strong> branch.</p>
+<div class="gblog-post__anchorwrap"><h2 id="build-and-publish-the-website">Build and publish the Website<a data-clipboard-text="https://btravouillon.github.io/posts/create-a-website-with-hugo/#build-and-publish-the-website" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Build and publish the Website" href="#build-and-publish-the-website"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>The next step is to build the static website with Hugo and push the output to a
+dedicated branch in our git project. The convention is to name this branch
+<strong>gh-pages</strong>. The instructions below are copied from the <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#preparations-for-gh-pages-branch">Hugo documentation</a>.</p>
+<p>Add the <code>public</code> folder to the <code>.gitignore</code> file:</p>
+<pre><code class="language-console" data-lang="console">$ echo &quot;public&quot; &gt;&gt; .gitignore
+</code></pre><p>Initialize the <code>gh-pages</code> branch:</p>
+<pre><code class="language-console" data-lang="console">git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m &quot;Initializing gh-pages branch&quot;
+git push origin gh-pages
+git checkout main
+</code></pre><p>Now check out the gh-pages branch into your public folder using git’s worktree feature:</p>
+<pre><code class="language-console" data-lang="console">$ git worktree add -B gh-pages public origin/gh-pages
+</code></pre><p>Build the website:</p>
+<pre><code class="language-console" data-lang="console">$ hugo
+Start building sites …
+
+                   | EN
+-------------------+-----
+  Pages            |  7
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     | 41
+  Processed images |  0
+  Aliases          |  3
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Total in 123 ms
+</code></pre><p>Commit and push the website:</p>
+<pre><code class="language-console" data-lang="console">$ cd public/
+$ git add --all
+$ git commit -m &quot;Publishing to gh-pages&quot;
+$ git push origin gh-pages
+</code></pre><p>In your GitHub project, go to <strong>Settings &gt; GitHub Pages</strong> and update the
+<strong>Source</strong> to use the branch <code>gh-pages</code> and click the <strong>Save</strong> button. Within a
+couple of minutes, GitHub Pages will update the content of the website online
+with the content of branch <strong>gh-pages</strong>.</p>
+
+
         </section>
-        <div class="gblog-post__readmore">
-            
-            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/create-a-website-with-hugo/">Read full post</a>
-            
-        </div>
-
-        <footer class="gblog-post__footer">
-            <span class="no-wrap">
-                <svg class="icon date"><use xlink:href="#date"></use></svg>
-                <span class="gblog-post__tag">
-                    <time datetime="2020-11-21T18:40:25-05:00">
-                        
-                        Nov 21, 2020
-                    </time>
-                </span>
-            </span>
-
-            <span class="no-wrap">
-                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
-                <span class="gblog-post__tag">5 min read</span>
-            </span>
-
-            
-
-            
-            
-
-            
-            
-        </footer>
     </article>
-    
-    
-
-<nav class="gblog-paging flex flex-even align-center" role="navigation">
-    <div class="gblog-paging__item gblog-paging__item--prev">
-    
-    </div>
-    <div class="gblog-paging__state">Page 1 of 1</div>
-    <div class="gblog-paging__item gblog-paging__item--next">
-    
-    </div>
-</nav>
-
 
         </main>
 
