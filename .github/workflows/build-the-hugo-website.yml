@@ -1,0 +1,37 @@
+name: Build the Hugo website
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    env:
+      GEEKBLOG_RELEASE: 'v0.7.0'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install Hugo
+        run: brew install hugo
+      - name: Download the geekblog theme
+        run: |
+          curl -L -O https://github.com/thegeeklab/hugo-geekblog/releases/download/${GEEKBLOG_RELEASE}/hugo-geekblog.tar.gz
+          mkdir -p themes/geekblog
+          tar -xzf hugo-geekblog.tar.gz -C themes/geekblog
+          rm -f hugo-geekblog.tar.gz
+      - name: Checkout the gh-pages in the public directory
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: public
+      - name: Cleanup the public directory
+        run: rm -rf public/*
+      - name: Build the website
+        run: hugo
+      - name: Commit and push to the gh-pages branch
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "actions: publish to gh-pages"
+          branch: gh-pages
+          repository: public/
