@@ -1,6 +1,7 @@
 ---
 title: "Create a Website With Hugo"
 date: 2020-11-21T17:34:24-05:00
+tags: ["hugo"]
 draft: false
 ---
 
@@ -202,6 +203,9 @@ In your GitHub project, go to **Settings > GitHub Pages** and update the
 couple of minutes, GitHub Pages will update the content of the website online
 with the content of branch **gh-pages**.
 
+If you want to automate the build process, read my next blog post [Automate
+Hugo builds with GitHub Actions][8].
+
 [1]: https://gohugo.io/
 [2]: https://pages.github.com
 [3]: https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages
@@ -209,3 +213,4 @@ with the content of branch **gh-pages**.
 [5]: https://themes.gohugo.io/hugo-geekblog/
 [6]: https://hugo-geekblog.geekdocs.de/posts/getting-started/#configuration
 [7]: https://gohugo.io/hosting-and-deployment/hosting-on-github/#preparations-for-gh-pages-branch
+[8]: {{< relref "automate-hugo-builds-with-github-actions.md" >}}
