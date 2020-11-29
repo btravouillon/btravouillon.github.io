@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Bruno&#39;s tech minutes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2020 17:34:24 -0500</lastBuildDate><atom:link href="https://btravouillon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 18:28:33 -0500</lastBuildDate><atom:link href="https://btravouillon.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate Hugo builds with GitHub Actions</title>
+      <link>https://btravouillon.github.io/posts/automate-hugo-builds-with-github-actions/</link>
+      <pubDate>Sun, 29 Nov 2020 18:28:33 -0500</pubDate>
+      
+      <guid>https://btravouillon.github.io/posts/automate-hugo-builds-with-github-actions/</guid>
+      <description>The sources of this blog are tracked in a git repository hosted on GitHub. The editable content is kept in the default branch main, while the static pages built by Hugo are stored in the gh-pages branch. The GitHub Pages hosting service is configured to use the content of gh-pages as a source.
+The process to build and publish a website with Hugo, explained in a previous blog post, requires several manual steps.</description>
+    </item>
+    
     <item>
       <title>Create a Website With Hugo</title>
       <link>https://btravouillon.github.io/posts/create-a-website-with-hugo/</link>
