@@ -22,7 +22,7 @@
     
 
 
-    <title>Hugo | Bruno&#39;s tech minutes</title>
+    <title>Vagrant | Bruno&#39;s tech minutes</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -30,14 +30,14 @@
 
     
 
-    <meta property="og:title" content="hugo" />
+    <meta property="og:title" content="vagrant" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://btravouillon.github.io/tags/hugo/" />
-<meta property="og:updated_time" content="2020-11-29T18:30:59-05:00" />
+<meta property="og:url" content="https://btravouillon.github.io/tags/vagrant/" />
+<meta property="og:updated_time" content="2020-12-05T13:16:01-05:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="hugo"/>
+<meta name="twitter:title" content="vagrant"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -111,13 +111,13 @@
         
         
         <li>
-            <a class="gblog-nav__entry  is-active " href="/tags/hugo/">hugo</a>
+            <a class="gblog-nav__entry " href="/tags/hugo/">hugo</a>
         </li>
         
         
         
         <li>
-            <a class="gblog-nav__entry " href="/tags/vagrant/">vagrant</a>
+            <a class="gblog-nav__entry  is-active " href="/tags/vagrant/">vagrant</a>
         </li>
         
         
@@ -134,16 +134,16 @@
     
     <article class="gblog-post">
         <header class="gblog-post__header">
-            <h1><a href="/posts/automate-hugo-builds-with-github-actions/">Automate Hugo builds with GitHub Actions</a></h1>
+            <h1><a href="/posts/test-bluebanquise-PR-with-vagrant/">Test BlueBanquise PR with Vagrant</a></h1>
         </header>
 
         <section class="gblog-markdown">
-            The sources of this blog are tracked in a git repository hosted on GitHub. The editable content is kept in the default branch main, while the static pages built by Hugo are stored in the gh-pages branch. The GitHub Pages hosting service is configured to use the content of gh-pages as a source.
-The process to build and publish a website with Hugo, explained in a previous blog post, requires several manual steps.
+            The BlueBanquise CI is somewhat limited when it comes to test client-server setup.
+This post will demonstrate how to test a pull request (PR) for BlueBanquise in virtual machines with Vagrant and the bluebanquise-vagrant project. I want to create a virtual environment to test the PR #397 which implements the customization of the port of the rsyslog server. At the time of writing, the head of this PR is 4605aeb.
         </section>
         <div class="gblog-post__readmore">
             
-            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/automate-hugo-builds-with-github-actions/">Read full post</a>
+            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/test-bluebanquise-PR-with-vagrant/">Read full post</a>
             
         </div>
 
@@ -151,16 +151,16 @@ The process to build and publish a website with Hugo, explained in a previous bl
             <span class="no-wrap">
                 <svg class="icon date"><use xlink:href="#date"></use></svg>
                 <span class="gblog-post__tag">
-                    <time datetime="2020-11-29T18:30:59-05:00">
+                    <time datetime="2020-12-05T13:16:01-05:00">
                         
-                        Nov 29, 2020
+                        Dec 5, 2020
                     </time>
                 </span>
             </span>
 
             <span class="no-wrap">
                 <svg class="icon timer"><use xlink:href="#timer"></use></svg>
-                <span class="gblog-post__tag">5 min read</span>
+                <span class="gblog-post__tag">7 min read</span>
             </span>
 
             
@@ -178,7 +178,7 @@ The process to build and publish a website with Hugo, explained in a previous bl
                     <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
                     
 <span class="gblog-post__tag gblog-button">
-    <a class="gblog-button__link" href="/tags/automation/" title="All posts tagged with 'automation'">automation</a>
+    <a class="gblog-button__link" href="/tags/bluebanquise/" title="All posts tagged with 'bluebanquise'">bluebanquise</a>
 </span>
 
                     </span>
@@ -191,70 +191,9 @@ The process to build and publish a website with Hugo, explained in a previous bl
                     
                     
 <span class="gblog-post__tag gblog-button">
-    <a class="gblog-button__link" href="/tags/hugo/" title="All posts tagged with 'hugo'">hugo</a>
+    <a class="gblog-button__link" href="/tags/vagrant/" title="All posts tagged with 'vagrant'">vagrant</a>
 </span>
 
-                    
-                
-                
-            
-            
-        </footer>
-    </article>
-    
-    <article class="gblog-post">
-        <header class="gblog-post__header">
-            <h1><a href="/posts/create-a-website-with-hugo/">Create a Website With Hugo</a></h1>
-        </header>
-
-        <section class="gblog-markdown">
-            + Hugo is a static website generator written in Go. This is a framework that helps to quickly and efficiently build a website from templates, themes and markdown content.
-In this blog post, I will demonstrate how to build a static website with Hugo and publish it to GitHub Pages. This post does not cover the initialization of the GitHub Pages which is documented here.
-Initial Setup of the Website There are several ways to install Hugo, which depend on your operating system.
-        </section>
-        <div class="gblog-post__readmore">
-            
-            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/create-a-website-with-hugo/">Read full post</a>
-            
-        </div>
-
-        <footer class="gblog-post__footer">
-            <span class="no-wrap">
-                <svg class="icon date"><use xlink:href="#date"></use></svg>
-                <span class="gblog-post__tag">
-                    <time datetime="2020-11-29T18:30:59-05:00">
-                        
-                            Updated on
-                        
-                        Nov 29, 2020
-                    </time>
-                </span>
-            </span>
-
-            <span class="no-wrap">
-                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
-                <span class="gblog-post__tag">5 min read</span>
-            </span>
-
-            
-
-            
-            
-
-            
-            
-            
-                
-                
-                    
-                    <span class="no-wrap">
-                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
-                    
-<span class="gblog-post__tag gblog-button">
-    <a class="gblog-button__link" href="/tags/hugo/" title="All posts tagged with 'hugo'">hugo</a>
-</span>
-
-                    </span>
                     
                 
                 
