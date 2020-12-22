@@ -2,7 +2,7 @@
 <html itemscope itemtype="http://schema.org/WebPage" lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.79.0" />
+	<meta name="generator" content="Hugo 0.79.1" />
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -35,7 +35,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://btravouillon.github.io/" />
-<meta property="og:updated_time" content="2020-12-05T13:16:01-05:00" />
+<meta property="og:updated_time" content="2020-12-22T18:52:43-05:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Bruno&#39;s tech minutes"/>
@@ -124,7 +124,19 @@
         
         
         <li>
+            <a class="gblog-nav__entry " href="/tags/github/">github</a>
+        </li>
+        
+        
+        
+        <li>
             <a class="gblog-nav__entry " href="/tags/hugo/">hugo</a>
+        </li>
+        
+        
+        
+        <li>
+            <a class="gblog-nav__entry " href="/tags/troubleshooting/">troubleshooting</a>
         </li>
         
         
@@ -146,6 +158,88 @@
     
 
     
+    
+    <article class="gblog-post">
+        <header class="gblog-post__header">
+            <h1><a href="/posts/rebuild-an-ubuntu-18.04-virtual-environment-for-vagrant/">Rebuild an Ubuntu 18.04 Virtual Environment for Vagrant</a></h1>
+        </header>
+
+        <section class="gblog-markdown">
+            The CI for the BlueBanquise project runs in GitHub Actions hosted runners, in an Ubuntu 18.04 virtual machine. The project runs unit tests for the Ansible roles with the molecule tool.
+There is a recurring problem with the unit test of the role core.time where the idempotence test occasionally fails in GitHub Actions. Despite multiple attempts to reproduce the issue locally, the molecule test always succeed in my lab system. Usually, a new run of the CI job allows to successfully pass the unit test.
+        </section>
+        <div class="gblog-post__readmore">
+            
+            <a class="flex-inline align-center fake-link" title="Read full post" href="/posts/rebuild-an-ubuntu-18.04-virtual-environment-for-vagrant/">Read full post</a>
+            
+        </div>
+
+        <footer class="gblog-post__footer">
+            <span class="no-wrap">
+                <svg class="icon date"><use xlink:href="#date"></use></svg>
+                <span class="gblog-post__tag">
+                    <time datetime="2020-12-22T18:52:43-05:00">
+                        
+                        Dec 22, 2020
+                    </time>
+                </span>
+            </span>
+
+            <span class="no-wrap">
+                <svg class="icon timer"><use xlink:href="#timer"></use></svg>
+                <span class="gblog-post__tag">6 min read</span>
+            </span>
+
+            
+
+            
+            
+
+            
+            
+            
+                
+                
+                    
+                    <span class="no-wrap">
+                    <svg class="icon bookmarks"><use xlink:href="#bookmarks"></use></svg>
+                    
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="/tags/github/" title="All posts tagged with 'github'">github</a>
+</span>
+
+                    </span>
+                    
+                
+                
+            
+                
+                
+                    
+                    
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="/tags/troubleshooting/" title="All posts tagged with 'troubleshooting'">troubleshooting</a>
+</span>
+
+                    
+                
+                
+            
+                
+                
+                    
+                    
+<span class="gblog-post__tag gblog-button">
+    <a class="gblog-button__link" href="/tags/vagrant/" title="All posts tagged with 'vagrant'">vagrant</a>
+</span>
+
+                    
+                
+                
+            
+            
+        </footer>
+    </article>
     
     <article class="gblog-post">
         <header class="gblog-post__header">
