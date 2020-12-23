@@ -109,7 +109,7 @@ There is a recurring problem with the unit test of the role core.time where the 
         }
     },
     "url" : "https:\/\/btravouillon.github.io\/posts\/rebuild-an-ubuntu-18.04-virtual-environment-for-vagrant\/",
-    "wordCount" : "1214",
+    "wordCount" : "1213",
     "genre" : [ "github" , "troubleshooting" , "vagrant" ]
 }
 </script>
@@ -388,7 +388,7 @@ sometimes it is better to use a different temporary directory by setting
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">export</span> <span class="nv">TMPDIR</span><span class="o">=</span>/scratch/tmp/packer
 $ mkdir -p <span class="nv">$TMPDIR</span>
 $ <span class="nb">cd</span> images/linux/
-$ packer build -var-file<span class="o">=</span>ubuntu1804.pkrvars.json ubuntu1804.json
+$ packer build ubuntu1804.json
 </code></pre></div><blockquote class="gblog-hint info">
   <strong>NOTE</strong><br>
 To enable the debug, set PACKER_LOG=1.
